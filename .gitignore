@@ -24,6 +24,4 @@ venv/
 *.log
 .DS_Store
 
-### Project-specific ignores
-test/
 *parquet

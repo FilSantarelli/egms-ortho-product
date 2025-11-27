@@ -1,0 +1,8 @@
+Debug stop for AOI E45N17:
+aoi_info_path: /lustre/scratch/projects/PSP_PROJECTS/PSP_EGMS/consegna_prodotti_update_2025/L3/E45N17/aoi.info
+calib_proc_units: [PosixPath('/lustre/scratch/projects/PSP_PROJECTS/PSP_EGMS/consegna_prodotti_update_2025/L3/ORTHO_PREP/EGMS_L2b_022_0845_IW2_VV_2020_2024_1'),
+ PosixPath('/lustre/scratch/projects/PSP_PROJECTS/PSP_EGMS/consegna_prodotti_update_2025/L3/ORTHO_PREP/EGMS_L2b_117_0227_IW2_VV_2020_2024_1')]
+start_date: 2020-01-03
+end_date: 2024-12-25
+solver_params: Namespace(spacing=[100, 100, 6], anchor=['center', 'center', 'start'], poly_degree=0, c_variable_weight=1e-05, d_variable_weight=1e-06, time_interpolation_exp=1, time_interpolation_max_distance=90, out_dates=None, skip_raster_solve=True, north_component=False)
+aoi_polygon: (4500000.0, 1700000.0, 4600000.0, 1800000.0)
