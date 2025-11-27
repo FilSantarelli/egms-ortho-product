@@ -1,0 +1,29 @@
+### Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+### Distribution / build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+### Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+### Jupyter Notebook cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.ipython/
+
+### Logs and miscellaneous clutter
+*.log
+.DS_Store
+
+### Project-specific ignores
+test/
+*parquet
