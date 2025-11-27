@@ -1,0 +1,14 @@
+{
+  "individual-task-stream": {
+    "mode": "split-right",
+    "ref": null
+  },
+  "individual-workers-memory": {
+    "mode": "split-bottom",
+    "ref": "individual-task-stream"
+  },
+  "individual-progress": {
+    "mode": "split-right",
+    "ref": "individual-workers-memory"
+  }
+}

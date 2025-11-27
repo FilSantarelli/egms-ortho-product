@@ -1,0 +1,13 @@
+labextension:
+  factory:
+    module: dask.distributed
+    class: LocalCluster
+    args: []
+    kwargs: {"processes": true}
+  default:
+    workers: 10
+    # adapt: null
+    adapt:
+      minimum: 1
+      maximum: 10
+  initial: []
