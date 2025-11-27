@@ -25,6 +25,11 @@ The goal of this repository is to reproduce European Ground Motion Service (EGMS
 ### Option 1: Binder (no local setup)
 Click the Binder badge above. Binder will build the conda environment defined in `environment.yml` and open `script.ipynb` directly in JupyterLab. Upload or mount your Sentinel-1 bursts into the session storage, adjust the "Parameters" cell, and execute the notebook sequentially.
 
+Binder resource limits (per [mybinder.org usage guidelines](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html)):
+- You are guaranteed 1 GB RAM and may burst up to 2 GB; exceeding 2 GB restarts the kernel.
+- Sessions are culled after ~10 minutes of inactivity and generally run up to 6 hours (or about one CPU-hour for heavy jobs).
+- Storage inside Binder is entirely ephemeral—any files saved during the session disappear once it stops, so download results before closing.
+
 ### Option 2: Local execution
 1. Clone the repository and move into the project folder:
    ```bash
