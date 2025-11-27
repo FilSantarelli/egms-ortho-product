@@ -5,7 +5,6 @@ from typing import Optional
 import xml.etree.ElementTree as ET
 
 import geopandas as gpd
-from advanced_utils.dataframes.dates import filter_date_columns
 
 
 def generate_output_name(
@@ -29,7 +28,7 @@ def generate_output_name(
     if df.empty:
         return None
 
-    dates, _ = filter_date_columns(df)
+    dates = [datetime.strptime(d, "%Y%m%d").date() for d in df.columns if d.isdigit()]
     start_date: date = min(dates)
     end_date: date = max(dates)
 
